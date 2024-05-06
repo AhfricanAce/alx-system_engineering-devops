@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Must show all processes
+# Including those which might not have a TTY
+# Display in a user-oriented format
+# Show process hierarchy
+
+ps -a -x -u -f
