@@ -1,5 +1,5 @@
 #creating a file in /tmp/school
-file { 'ALX-CM':
+file { 'ALX':
   ensure  => 'present',
   content => 'I love Puppet',
   group   => 'www-data',
